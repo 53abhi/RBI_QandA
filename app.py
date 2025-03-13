@@ -6,7 +6,7 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import FAISS
 from langchain_community.embeddings import HuggingFaceEmbeddings
 
-
+#Changes made
 # Load environment variables
 load_dotenv()
 API_KEY = os.getenv("MISTRAL_API_KEY", "K5QN2Uig3Xd1ihGAVkCyrGN5MIWyBHjp")
